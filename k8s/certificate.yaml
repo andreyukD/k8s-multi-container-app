@@ -6,7 +6,7 @@ spec:
   secretName: k8s-multi-com
   issuerRef:
     name: letsencrypt-prod
-    kind: CluserIssuer
+    kind: ClusterIssuer
   commonName: k8s.nokiacool.ru
   dnsNames:
     - k8s.nokiacool.ru
